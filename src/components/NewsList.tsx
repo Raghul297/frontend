@@ -53,7 +53,7 @@ const NewsList = () => {
     try {
       console.log("Fetching news...");
       const response = await axios.get(
-        "https://backend-1434.vercel.app/api/news"
+        "https://backend-jg1o1446.vercel.app/api/news"
       );
       console.log("News data received:", response.data);
       setNews(response.data);
@@ -127,7 +127,7 @@ const NewsList = () => {
         <Typography color="error">{error}</Typography>
         <Typography variant="body2" sx={{ mt: 2 }}>
           Please make sure the backend server is running on
-          https://backend-1434.vercel.app
+          https://backend-jg1o1446.vercel.app
         </Typography>
       </Box>
     );
